@@ -83,7 +83,7 @@ function calculateValue()
 	$("#toUnit").data("previous", $("#toUnit").val());
 }
 
-// Invert values on button click
+// Invert selected options
 $("#invert").click(function()
 {
 	document.getElementById("fromUnit").value = $("#toUnit").data("previous");
