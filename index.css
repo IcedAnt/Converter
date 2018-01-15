@@ -1,0 +1,38 @@
+body
+{
+	background-color: #222222;
+	font-family: 'Vollkorn SC', cursive;
+	font-size: 1em;
+	color: #DBDBDB;
+	text-align: center;
+}
+
+sup
+{
+	font-size: 0.5em;
+}
+
+input[type=number]
+{
+	padding: 0.5em 0.25em;
+}
+
+#invert
+{
+	width: 6em;
+	cursor: pointer;
+	background-color: #DBDBDB;
+	color: #222222;
+	font-family: 'Vollkorn SC', cursive;
+	border-radius: 0.5em;
+}
+
+.input
+{
+	padding: 0.5em 0em;
+	box-sizing: border-box;
+	border: 0em;
+	outline: none;
+	height: 3em;
+	width: 12em;
+}

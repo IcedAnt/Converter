@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Converter</title>
+
+<link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" href="logo.png" type="image/png">
+<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="top">
+	<h1>Unit Converter</h1>
+
+	<p>
+		<span>Currently supports Mass, Length and Volume.</span>
+		<br>
+		<span>Values are rounded to the 10<sup>th</sup> decimal.</span>
+	</p>
+	<hr>
+</div>
+
+<div id="main">
+	<p>
+		<span>Select unit type:</span>
+		<br>
+		<select class="input" id="unitType" name="unitType" required></select>
+		<br>
+	</p>
+
+	<p>
+		<span>Select units to convert from:</span>
+		<br>
+		<input type="number" value="1" step="any" min="0" class="input" id="fromValue" name="fromValue" required>
+		<select class="input" id="fromUnit" name="fromUnit" required></select>
+		<br>
+	</p>
+
+	<input type="button" value="Invert" class="input" id="invert" name="invert">
+
+	<p>
+		<span>Select units to convert to:</span>
+		<br>
+		<input type="number" class="input" id="toValue" name="toValue" readonly>
+		<select class="input" id="toUnit" name="toUnit" required></select>
+		<br>
+	</p>
+
+</div>
+
+<script src="convert.js"></script>
+
+</body>
+</html>
